@@ -1,0 +1,51 @@
+body {
+    width: 100vw;
+    height: auto;
+    background-color: whitesmoke;
+}
+header {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(214, 214, 214);
+}
+header div {
+    display: flex;
+    flex-direction: row;
+}
+header h1 {
+    padding-top: 25px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 3rem;
+}
+header h2 {
+    padding-top: 32px;
+    font-size: 2.5rem;
+    color:darkseagreen;
+}
+header img {
+    border: 5px lightgreen solid;
+    margin-left: 1vw;
+    width: 100px;
+    height: auto;
+    align-self: unset;
+    justify-content: end;
+}
+section {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section ul {
+    padding-top: 5vh;
+    margin-left: 1vw;
+}
+section h1 {
+    font-size: 1.5rem;
+    margin: 3vh;
+}
